@@ -7,16 +7,16 @@
   </parent>
   <groupId>no.uis.portal</groupId>
   <artifactId>httpdmaintain</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>httpdmaintain</name>
   <description>minimal webserver that shows the content of a single file, depends on Sun JRE</description>
 	<inceptionYear>2010</inceptionYear>
 	<url>http://source01.uis.no/maven-site/${project.groupId}/${project.artifactId}/${project.version}</url>
 
 	<scm>
-		<connection>scm:svn:http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</connection>
-		<developerConnection>scm:svn:https://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</developerConnection>
-		<url>http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</url>
+		<connection>scm:svn:http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/tags/httpdmaintain-0.0.1</connection>
+		<developerConnection>scm:svn:https://source01.uis.no/repos/portal/medikamentregning/medikamentregning/tags/httpdmaintain-0.0.1</developerConnection>
+		<url>http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/tags/httpdmaintain-0.0.1</url>
 	</scm>
 
 	<build>

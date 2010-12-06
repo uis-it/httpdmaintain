@@ -21,7 +21,15 @@ public class MyServer implements HttpHandler {
 
   public static void main(String[] args) {
     try {
-      new MyServer().startServer(8080, "maintenance.html");
+      int port = 8080;
+      String file = "maintenance.html";
+      if (args.length > 0) {
+        port = Integer.parseInt(args[0]);
+        if (args.length > 1) {
+          file = args[1];
+        }
+      }
+      new MyServer().startServer(port, file);
     } catch(Exception e) {
       writeLog(e);
     }

@@ -7,7 +7,7 @@
   </parent>
   <groupId>no.uis.portal</groupId>
   <artifactId>httpdmaintain</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>httpdmaintain</name>
   <description>minimal webserver that shows the content of a single file, depends on Sun JRE</description>
 	<inceptionYear>2010</inceptionYear>

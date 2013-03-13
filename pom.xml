@@ -9,8 +9,8 @@
 	<url>http://source01.uis.no/maven-site/${project.groupId}/${project.artifactId}/${project.version}</url>
 
 	<scm>
-		<connection>scm:svn:http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</connection>
-		<developerConnection>scm:svn:https://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</developerConnection>
+		<connection>scm:git:git://forge.uis.no/httpdmaintain.git</connection>
+		<developerConnection>scm:git:ssh://git@forge.uis.no/httpdmaintain.git</developerConnection>
 		<url>http://source01.uis.no/repos/portal/medikamentregning/medikamentregning/trunk</url>
 	</scm>
 

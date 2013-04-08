@@ -4,7 +4,7 @@
   <module name="TreeWalker">
     <module name="PackageName">
       <property name="format"
-         value="no\.uis\.$\{projectname\}(\.[a-z][a-zA-Z0-9]+)*$"/>
+         value="no\.uis\.httpdmaintain(\.[a-z][a-zA-Z0-9]+)*$"/>
     </module>
   </module>
 </module>

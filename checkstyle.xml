@@ -103,6 +103,7 @@
     <module name="AvoidNestedBlocks"/>
     <module name="EmptyBlock"/>
     <module name="LeftCurly">
+      <property name="option" value="nlow"/>
       <property name="maxLineLength" value="130"/>
     </module>
     <module name="NeedBraces"/>
@@ -131,7 +132,7 @@
     <module name="IllegalCatch"/>
     <module name="IllegalThrows"/>
     <module name="IllegalToken">
-      <property name="tokens" value="POST_INC,POST_DEC,LITERAL_SWITCH"/>
+      <property name="tokens" value="UNARY_PLUS"/>
     </module>
     <module name="IllegalTokenText"/>
     <module name="IllegalType">

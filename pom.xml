@@ -8,7 +8,7 @@
   <name>httpdmaintain</name>
   <description>minimal webserver that shows the content of a single file, depends on Sun JRE</description>
   <inceptionYear>2010</inceptionYear>
-  <url>http://forge.uis.no/projects/httpdmaintain</url>
+  <url>https://github.com/uis-it/httpdmaintain</url>
 
   <parent>
     <groupId>no.uis</groupId>
@@ -17,9 +17,9 @@
   </parent>
   
   <scm>
-    <connection>scm:git:git://forge.uis.no/tools/httpdmaintain.git</connection>
-    <developerConnection>scm:git:ssh://git@forge.uis.no/tools/httpdmaintain.git</developerConnection>
-    <url>http://forge.uis.no/projects/httpdmaintain/repository</url>
+    <connection>scm:git:git://forge.uis.no/uis-it/httpdmaintain.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/uis-it/httpdmaintain.git</developerConnection>
+    <url>https://github.com/uis-it/httpdmaintain</url>
   </scm>
 
   <properties>
@@ -130,4 +130,8 @@
       </plugin>
     </plugins>
   </build>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/uis-it/httpdmaintain/issues</url>
+  </issueManagement>
 </project>
